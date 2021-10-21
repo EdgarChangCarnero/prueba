@@ -1,0 +1,103 @@
+.cajaMenu {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: justify;
+}
+.newlitter {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.newlitter h3 {
+  margin-bottom: 10px;
+}
+.newlitter p {
+  margin: 10px auto;
+}
+.newlitter button {
+  padding: 10px;
+  border: 1px solid white;
+  background: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  width: 70%;
+}
+.office {
+  margin-top: 20px;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+.office h3 {
+  margin: 20px auto;
+}
+.officeDiv {
+  display: flex;
+  flex-wrap: wrap;
+}
+.officeDiv div {
+  width: 50%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+footer {
+  margin: 20px;
+  text-align: center;
+}
+footer div:nth-child(2) {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+@media screen and (min-width: 768px) {
+  .lista {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+  }
+  .lista div {
+    width: 50%;
+  }
+  .lista div:nth-child(2) {
+    display: flex;
+    justify-content: right;
+    padding-right: 40px;
+  }
+  .cajaMenu {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .newlitter {
+    width: 50%;
+    text-align: justify;
+    align-items: flex-start;
+  }
+  .newlitter h3 {
+    width: 100%;
+  }
+  .office {
+    text-align: left;
+  }
+  .officeDiv div {
+    width: 25%;
+    text-align: justify;
+    padding-left: 30px;
+  }
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+  }
+  footer div:nth-child(2) {
+    margin-top: 0;
+  }
+}

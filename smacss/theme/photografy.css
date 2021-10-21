@@ -1,0 +1,61 @@
+.caja-titulo {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.caja-parrafo {
+  text-align: justify;
+}
+.caja-enlace {
+  margin: 10px auto;
+  cursor: pointer;
+}
+.enlace {
+  color: yellow;
+}
+.enlace:hover {
+  color: white;
+}
+.caja-imgPhoto {
+  text-align: center;
+}
+.caja-cuadPhotoText {
+  width: 50%;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  transform: translate(150px, -25px);
+  background: salmon;
+}
+.caja-cuadPhotoImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+.cuadPhotoText {
+  width: 70%;
+  text-align: right;
+  font-size: 12px;
+}
+.cuadPhotoImg {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+}
+@media screen and (min-width: 767px) {
+  .imgPhoto-Img {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+  }
+  .caja-cuadPhotoText {
+    width: 25%;
+    transform: translate(500px, -25px);
+  }
+  .caja-titulo {
+    margin-bottom: 10px;
+  }
+  .caja-coursesColum {
+    display: flex;
+  }
+}
