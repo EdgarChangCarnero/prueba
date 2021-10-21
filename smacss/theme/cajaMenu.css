@@ -101,3 +101,27 @@ footer div:nth-child(2) {
     margin-top: 0;
   }
 }
+@media screen and (min-width: 1024px) {
+  .cajaMenu {
+    margin: 20px 0;
+  }
+  .lista ul li {
+    padding: 0 10px 0 0;
+  }
+  .lista div:nth-child(2) {
+    padding-right: 0;
+  }
+  .newlitter button {
+    width: 40%;
+  }
+  .officeDiv div {
+    text-align: justify;
+    padding: 0;
+  }
+  footer {
+    margin: 20px auto;
+  }
+  footer div:nth-child(2) p:nth-child(2) {
+    padding-left: 30px;
+  }
+}

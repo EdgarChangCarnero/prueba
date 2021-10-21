@@ -54,3 +54,14 @@
 .coursesButton {
   margin-top: 10px;
 }
+@media screen and (min-width: 1024px) {
+  .grupoCourses {
+    margin-top: 20px;
+  }
+  .caja-parrafo {
+    width: 50%;
+  }
+  .coursesSubtitulo {
+    text-align: left;
+  }
+}

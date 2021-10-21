@@ -2,7 +2,7 @@
   text-align: center;
   margin-bottom: 30px;
 }
-.caja-parrafo {
+.caja-parrafo-foto {
   text-align: justify;
 }
 .caja-enlace {
@@ -57,5 +57,28 @@
   }
   .caja-coursesColum {
     display: flex;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .grupoPhotografy {
+    display: flex;
+  }
+  .grupoPhotografy .caja {
+    width: 50%;
+  }
+  .grupoPhotografy .caja:nth-child(1) {
+    padding-right: 50px;
+  }
+  .caja-titulo {
+    text-align: left;
+  }
+  .texto {
+    width: 50%;
+  }
+  .caja-parrafo {
+    width: 100%;
+  }
+  .caja-cuadPhotoText {
+    transform: translate(470px, -25px);
   }
 }

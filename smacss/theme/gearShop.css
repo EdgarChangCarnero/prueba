@@ -30,6 +30,7 @@
 .imgGJI {
   color: orangered;
 }
+
 .gearBoton button span {
   padding-left: 20px;
 }
@@ -107,4 +108,57 @@
   .hrFooter {
     width: 730px;
   }
+}
+@media screen and (min-width: 1024px) {
+  .subtitulo-Gear h2 {
+    text-align: left;
+  }
+  .geraTexto {
+    margin: 20px 0;
+    width: 50%;
+  }
+  .textoBoton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .gearBoton {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+  }
+  .gearBoton button {
+    width: 30%;
+  }
+  .imgMomentImg {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+  }
+  .img {
+    width: 200px;
+    height: 200px;
+  }
+  .imgMoment {
+    align-items: flex-start;
+    width: 50%;
+  }
+  .imgMoment h3 {
+    margin: 20px auto;
+    text-align: center;
+    width: 50%;
+  }
+  .hrFooter {
+    width: 100%;
+  }
+  /* .imgFujifilm,
+  .imgGJI {
+    background: violet;
+    margin: 0;
+    padding: 0;
+    border: 1px solid white;
+    justify-content: flex-start;
+    align-items: flex-start;
+  } */
 }
