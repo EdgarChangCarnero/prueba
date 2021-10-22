@@ -7,3 +7,13 @@
 @import "/smacss/theme/curses.css";
 @import "/smacss/theme/gearShop.css";
 @import "/smacss/theme/cajaMenu.css";
+
+@import "./base/base.css";
+@import "./base/variables.css";
+@import "./theme/cajaMenu.css";
+@import "./theme/curses.css";
+@import "./theme/gearShop.css";
+@import "./theme/header.css";
+@import "./theme/photografy.css";
+@import "./theme/theme.css";
+@import "./layout/layout.css";
